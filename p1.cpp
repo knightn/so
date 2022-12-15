@@ -10,3 +10,4 @@ cout<<"\nThe CPU info:-\n";
 system("cat/proc/cpuinfo |awk 'NR==3,NR==4{print}'\n");
 return 0;
 }
+//end
